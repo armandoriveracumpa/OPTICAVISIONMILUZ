@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visión Miluz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        img {
+            width: 150px;
+            height: auto;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo de la óptica -->
+        <img src="gafas.jpg" alt="Logo Visión Miluz">
+        <h1>Bienvenidos a Visión Miluz</h1>
+    </header>
+
+    <section>
+        <h2>Nuestros Productos</h2>
+        <!-- Imagen de producto -->
+        <img src="gafas.jpg" alt="Lentes de Visión Miluz" style="width: 300px; height: auto;">
+        <p>Los mejores lentes para cuidar tu vista y estilo.</p>
+    </section>
+
+    <section>
+        <h2>Contáctanos</h2>
+        <form action="mailto:tuemail@dominio.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Visión Miluz | Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
